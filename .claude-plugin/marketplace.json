@@ -1,14 +1,14 @@
 {
-  "name": "dylangroos-obsidian",
+  "name": "dylangroos-claude-obsidian",
+  "description": "Obsidian vault integration for Claude Code",
   "owner": {
     "name": "Dylan Groos"
   },
   "plugins": [
     {
       "name": "obsidian-vault",
-      "source": "dylangroos/claude-obsidian",
-      "description": "Obsidian vault integration for Claude Code",
-      "version": "1.0.0"
+      "source": "./",
+      "description": "Obsidian vault integration for session logging, daily notes, and knowledge capture"
     }
   ]
 }
