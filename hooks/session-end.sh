@@ -37,10 +37,8 @@ Auto-captured session. Use /session-log to add details.
 
 EOF
 
-# Add link to daily note if it exists
-if [ -f "$DAILY_FILE" ]; then
-  echo "- [[sessions/$DATE/session-$SESSION_ID|Session $TIME]]" >> "$DAILY_FILE"
-fi
+# Dataview handles session links in daily note automatically
+# No manual linking needed
 
 # Silent output
 cat << EOF
