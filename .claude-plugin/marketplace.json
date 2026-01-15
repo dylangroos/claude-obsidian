@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "obsidian-vault",
-      "source": ".",
+      "source": "dylangroos/claude-obsidian",
       "description": "Obsidian vault integration for Claude Code",
       "version": "1.0.0"
     }
