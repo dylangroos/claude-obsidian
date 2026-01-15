@@ -1,0 +1,8 @@
+{
+  "name": "obsidian-vault",
+  "description": "Obsidian vault integration for session logging, daily notes, and knowledge capture",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dylan Groos"
+  }
+}
